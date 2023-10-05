@@ -4,7 +4,7 @@
 }
 .main{
     height: 700px;
-   background-image: url("blurr.png");
+   background-image: url("login2.jpg");
    background-size: cover;
    display: flex;
    align-items: center;
@@ -50,7 +50,7 @@ input[type="password"] {
 }
 
 button {
-    background: #007BFF;
+    background: #0bd44e;
     color: #fff;
     padding: 10px;
     border: none;
@@ -74,6 +74,7 @@ span{
 }
 .wrong{
   margin-left: 95%;
+  color: #0bd44e;
 }
 .email{
   font-size: larger;

@@ -11,7 +11,7 @@
    --first-color-alt: hsl(228, 66%, 47%);
    --first-color-light: hsl(228, 62%, 59%);
    --first-color-lighten: hsl(228, 100%, 97%);
-   --second-color: hsl(25, 83%, 53%);
+   --second-color: hsl(125, 68%, 50%);
    --title-color: hsl(228, 57%, 28%);
    --text-color: hsl(228, 15%, 50%);
    --text-color-light: hsl(228, 12%, 75%);
@@ -114,8 +114,8 @@ button {
 /*========== Variables Dark theme ==========*/
 
 body.dark-theme {
-   --first-color: hsl(228, 66%, 62%);
-   --second-color: hsl(25, 57%, 54%);
+   --first-color:  hsl(125, 68%, 50%);
+   --second-color:  hsl(125, 68%, 50%);
    --title-color: hsl(228, 8%, 95%);
    --text-color: hsl(228, 8%, 70%);
    --border-color: hsl(228, 16%, 14%);
@@ -233,6 +233,7 @@ body.dark-theme {
 }
 
 .nav__logo {
+   font-size: 35px;
    color: #fff;
    display: inline-flex;
    align-items: center;
@@ -242,7 +243,8 @@ body.dark-theme {
 }
 
 .nav__logo i {
-   font-size: 1rem;
+   font-size: 40px;
+
 }
 
 .nav__logo:hover {
