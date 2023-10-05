@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 700px;
+   background-image: url("blurr.png");
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form {
+    width: 400px;
+  
+    /* background: #fff; */
+    /* backdrop-filter: blur(5px); */
+    padding-right: 30px;
+    padding: 20px;
+    color: white;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+.disable{
+  display: none;
+}
+.noacc{
+  margin-top: 5px;
+}
+span{
+  font-size: larger;
+  color: #f7f7f7;
+  cursor: pointer;
+}
+.wrong{
+  margin-left: 95%;
+}
+.email{
+  font-size: larger;
+}
+.password{
+  font-size: larger;
+}
